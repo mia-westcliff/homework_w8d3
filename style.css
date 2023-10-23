@@ -34,13 +34,36 @@ header {
 header span {
     font-family: 'Sacramento', cursive;
 }
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: -50px;
+    margin-left: 250px;
+    padding: 50;
+}
+
+nav li {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+nav a {
+    font-size: large;
+    text-decoration: none;
+    color: #e69224;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #7eda6c; /* Color when hovering over a link */
+}
 main {
     position: relative;
 }
 main h2 {
     position: absolute;
     left: 20%;
-    top: 30px;
+    top: 80px;
     margin: 25px 0 200px 10px;
     color:rgb(60, 190, 160);
     text-transform: uppercase;
@@ -63,8 +86,8 @@ main .post {
     border-radius: 0.5em;
 }
 .profile-picture {
-    width: 35px;
-    height: 30px;
+    width: 45px;
+    height: 35px;
 }
 .author-info-box {
     width: 320px;

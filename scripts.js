@@ -1,9 +1,28 @@
 Vue.component('food-blog', {
     template: '<header><span>Food Blog</span></header>'
 });
-
+Vue.component('header-navigation', {
+    template: `
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">Lifestyles</a></li>
+                <li><a href="#">Videos</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    `
+});
 Vue.component('comments', {
     template: '<h2>Comments</h2>'
+});
+Vue.component('header-photos', {
+    template: `
+        <aside id="photos">
+            <img src="images/chili.jpg" alt="White Chicken Chili" width="180">
+        </aside>
+    `
 });
 
 Vue.component('post', {
